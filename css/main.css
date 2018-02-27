@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Poiret+One");
+.icon-sprite, .icon-icons-01, .icon-icons-02, .icon-icons-03, .icon-icons-04, .icon-icons-05, .icon-icons-06, .icon-icons-07, .icon-icons-08, .icon-icons-09, .icon-icons-10 {
+  background-image: url('../img/icon-s0ea3cb8f0a.png');
+  background-repeat: no-repeat;
+}
+
+.icon-icons-01 {
+  background-position: 0 -256px;
+}
+.icon-icons-01:hover, .icon-icons-01.icons-01-hover {
+  background-position: 0 0;
+}
+
+.icon-icons-02 {
+  background-position: 0 -768px;
+}
+.icon-icons-02:hover, .icon-icons-02.icons-02-hover {
+  background-position: 0 -512px;
+}
+
+.icon-icons-03 {
+  background-position: 0 -1280px;
+}
+.icon-icons-03:hover, .icon-icons-03.icons-03-hover {
+  background-position: 0 -1024px;
+}
+
+.icon-icons-04 {
+  background-position: 0 -1792px;
+}
+.icon-icons-04:hover, .icon-icons-04.icons-04-hover {
+  background-position: 0 -1536px;
+}
+
+.icon-icons-05 {
+  background-position: 0 -2304px;
+}
+.icon-icons-05:hover, .icon-icons-05.icons-05-hover {
+  background-position: 0 -2048px;
+}
+
+.icon-icons-06 {
+  background-position: 0 -2816px;
+}
+.icon-icons-06:hover, .icon-icons-06.icons-06-hover {
+  background-position: 0 -2560px;
+}
+
+.icon-icons-07 {
+  background-position: 0 -3328px;
+}
+.icon-icons-07:hover, .icon-icons-07.icons-07-hover {
+  background-position: 0 -3072px;
+}
+
+.icon-icons-08 {
+  background-position: 0 -3840px;
+}
+.icon-icons-08:hover, .icon-icons-08.icons-08-hover {
+  background-position: 0 -3584px;
+}
+
+.icon-icons-09 {
+  background-position: 0 -4352px;
+}
+.icon-icons-09:hover, .icon-icons-09.icons-09-hover {
+  background-position: 0 -4096px;
+}
+
+.icon-icons-10 {
+  background-position: 0 -4864px;
+}
+.icon-icons-10:hover, .icon-icons-10.icons-10-hover {
+  background-position: 0 -4608px;
+}
+
+body {
+  background-color: #787878;
+}
+
+header {
+  padding: 10px;
+}
+header h1 {
+  font-family: "Poiret One", cursive;
+  font-size: 4em;
+  padding-left: 70px;
+  border-bottom: 2px solid black;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+li a {
+  display: inline-block;
+  width: 256px;
+  height: 256px;
+}
+li a span {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+
+section {
+  max-width: 60%;
+}
